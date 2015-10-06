@@ -1,7 +1,5 @@
 ## Testowanie aplikacji w Ruby, matwb@ug.edu.pl
 
-![GIT](images/github_in_case_of_fire.jpg)
-
 Podręczne linki:
 
 1. [Better Specs](http://betterspecs.org/).
