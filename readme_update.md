@@ -1,7 +1,18 @@
 
 
 ##Arrays
-###ddd
+
+###Creating Arrays
+
+```ruby
+ary = [1, "two", 3.0] #=> [1, "two", 3.0]
+```
+```ruby
+ary = Array.new    #=> []
+Array.new(3)       #=> [nil, nil, nil]
+Array.new(3, true) #=> [true, true, true]
+```
+
 
 ```ruby
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
