@@ -12,7 +12,10 @@ ary = Array.new    #=> []
 Array.new(3)       #=> [nil, nil, nil]
 Array.new(3, true) #=> [true, true, true]
 ```
-
+An array can also be created by using the Array() method, provided by Kernel, which tries to call to_ary, then to_a on its argument.
+```ruby
+Array({:a => "a", :b => "b"}) #=> [[:a, "a"], [:b, "b"]]
+```
 
 ```ruby
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
