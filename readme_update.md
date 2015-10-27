@@ -1,11 +1,12 @@
-##Learn X in Y minutes, where X = Ruby Array/Enumerable
-###Learning arrays
+
+
+###Arrays
 ```ruby
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
 browsers.include?('Konqueror') #=> false
 browsers.include?('IE') #=> true
 ```
-###Learning enumerables
+###Enumerables
 
 all? [{ |obj| block } ] → true or false
 ```ruby
@@ -13,7 +14,7 @@ all? [{ |obj| block } ] → true or false
 %w[ant bear cat].all? { |word| word.length >= 4 } #=> false
 [nil, true, 99].all?                              #=> false
 ```
-###Learning hashes
+###Hashes
 
 Accesing keys of hashes as symbols
 ```ruby
