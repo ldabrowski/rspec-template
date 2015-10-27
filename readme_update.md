@@ -38,7 +38,9 @@ browsers.include?('IE') #=> true
 ```
 
 
-###Enumerables
+##Enumerables
+
+
 
 all? [{ |obj| block } ] → true or false
 ```ruby
