@@ -1,4 +1,4 @@
-## Testowanie aplikacji w Ruby, matwb@ug.edu.pl
+## Testowanie aplikacji w Ruby, lukasz922@gmail.com
 
 Podręczne linki:
 
