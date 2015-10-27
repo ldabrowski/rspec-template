@@ -17,11 +17,27 @@ An array can also be created by using the Array() method, provided by Kernel, wh
 Array({:a => "a", :b => "b"}) #=> [[:a, "a"], [:b, "b"]]
 ```
 
+###Accessing Elements
+
+```ruby
+arr = [1, 2, 3, 4, 5, 6]
+arr[2]    #=> 3
+arr[100]  #=> nil
+arr[-3]   #=> 4
+arr[2, 3] #=> [3, 4, 5]
+arr[1..4] #=> [2, 3, 4, 5]
+arr[1..-3] #=> [2, 3, 4]
+```
+
+###Obtaining Information about an Array
+
 ```ruby
 browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
 browsers.include?('Konqueror') #=> false
 browsers.include?('IE') #=> true
 ```
+
+
 ###Enumerables
 
 all? [{ |obj| block } ] → true or false
