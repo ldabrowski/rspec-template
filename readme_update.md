@@ -48,7 +48,37 @@ all? [{ |obj| block } ] → true or false
 %w[ant bear cat].all? { |word| word.length >= 4 } #=> false
 [nil, true, 99].all?                              #=> false
 ```
-###Hashes
+
+For example, consecutive even numbers and odd numbers can be chunked as follows.
+```ruby
+[3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5].chunk { |n|
+  n.even?
+}.each { |even, ary|
+  p [even, ary]
+}
+#=> [false, [3, 1]]
+#   [true, [4]]
+#   [false, [1, 5, 9]]
+#   [true, [2, 6]]
+#   [false, [5, 3, 5]]
+```
+
+This method is especially useful for sorted series of elements. The following example counts words for each initial letter.
+```ruby
+open("/usr/share/dict/words", "r:iso-8859-1") { |f|
+  f.chunk { |line| line.ord }.each { |ch, lines| p [ch.chr, lines.length] }
+}
+#=> ["\n", 1]
+#   ["A", 1327]
+#   ["B", 1372]
+#   ["C", 1507]
+#   ["D", 791]
+#   ...
+```
+
+
+
+##Hashes
 
 Accesing keys of hashes as symbols
 ```ruby
