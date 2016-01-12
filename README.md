@@ -13,4 +13,4 @@ Podręczne linki:
 
 1. [x] [Learn X in Y minutes, where X = Ruby Array/Enumerable](https://github.com/ldabrowski/rspec-template/blob/master/readme_update.md)
 2. [x] [Coś do przetestowania na początek](https://github.com/ldabrowski/rspec-template/tree/master/zadanie_2)
-3. [x ] [Program/Biblioteka/Aplikacja WWW](https://github.com/ldabrowski/rspec-template/tree/master/zadanie3)
+3. [x] [Program/Biblioteka/Aplikacja WWW](https://github.com/ldabrowski/rspec-template/tree/master/zadanie3)
